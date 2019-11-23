@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StartDevelopmentTest</string>
+    <string name="mainscreen_maintext">StartDev\nStar Wars\nEXPLOR</string>
+    <string name="mainscreen_buttontext">Start</string>
+    <string name="starwars_title">Planets List</string>
+    <string name="starwars_detail_population">Population:&#160;</string>
+    <string name="starwars_detail_diameter">Diameter:&#160;</string>
+    <string name="starwars_detail_rotation">Rotation period:&#160;</string>
+    <string name="starwars_detail_orbital">Orbital period:&#160;</string>
+    <string name="starwars_detail_climate">climate:&#160;</string>
+    <string name="starwars_detail_gravity">gravity:&#160;</string>
+    <string name="starwars_detail_terrain">Terrain:&#160;</string>
+    <string name="starwars_detail_surface">surface:&#160;</string>
+
+</resources>

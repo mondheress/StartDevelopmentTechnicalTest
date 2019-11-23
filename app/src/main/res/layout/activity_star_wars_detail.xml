@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".activity.StarWarsDetailActivity">
+    <ImageButton
+        android:id="@+id/activity_star_wars_detail_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+    <TextView
+        android:id="@+id/activity_star_wars_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:text="Creator Name"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activity_star_wars_detail_rotation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_rotation"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/activity_star_wars_detail_orbital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_orbital"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/activity_star_wars_detail_diameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_diameter"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/activity_star_wars_detail_climate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_climate"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/activity_star_wars_detail_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_gravity"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/activity_star_wars_detail_terrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_terrain"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/activity_star_wars_detail_surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_surface"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/activity_star_wars_detail_population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="@string/starwars_detail_population"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+</LinearLayout>
