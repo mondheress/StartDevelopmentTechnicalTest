@@ -61,7 +61,7 @@ public class StarWarsDetailActivity extends AppCompatActivity {
         textViewSurface = findViewById(R.id.activity_star_wars_detail_surface);
         previous = findViewById(R.id.activity_star_wars_detail_back);
 
-        textViewPlanetName.setText(getString(R.string.starwars_detail_population) + name);
+        textViewPlanetName.setText(name);
         textViewPopulation.setText(getString(R.string.starwars_detail_population)+population);
         textViewDiameter.setText(getString(R.string.starwars_detail_diameter)+diameter);
         textViewRotation.setText(getString(R.string.starwars_detail_rotation)+planetrotation);
